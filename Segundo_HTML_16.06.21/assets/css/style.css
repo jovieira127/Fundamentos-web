@@ -2,6 +2,17 @@
 Estilos do segundo HTML - index.html
 */
 
+body {
+    background-color: #BF8E63;
+    background-image: url("file:///C:/Users/jonat/Desktop/HTML/Fundamentos-web/Segundo_HTML_16.06.21/assets/img/Papel%20pardo.jpg");
+    background-size:auto;
+    font-family: Arial, sans-serif ;
+}
+
+#faixa1{
+    background-color: #112240;
+    padding: 20px;
+}
 .center
 {
     text-align: center;
@@ -20,11 +31,11 @@ Estilos do segundo HTML - index.html
     align-items: center;
 }
 
-#menu li
+.menu
 {
     display: inline;
-    padding: 20px;
-    text-decoration: none;
+    
+
 }
 
 #menu li a
