@@ -5,13 +5,36 @@ Estilos do segundo HTML - index.html
 body {
     background-color: #BF8E63;
     background-image: url("file:///C:/Users/jonat/Desktop/HTML/Fundamentos-web/Segundo_HTML_16.06.21/assets/img/Papel%20pardo.jpg");
-    background-size:auto;
-    font-family: Arial, sans-serif ;
+    font-family: Arial;
+    margin: 0 0 0 0;
+
+    
+}
+.menu {
+    display: flex;
+    background-color: #112240;
+    margin: 0 0 0 0;
+    padding: 0px;
 }
 
-#faixa1{
-    background-color: #112240;
-    padding: 20px;
+.menu li{
+    display: inline;
+    padding: 10px;
+    margin: 5px;  
+}
+
+.menu li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.menu li a:hover
+{
+  padding: 10px;
+  background-color: #ddd;
+  color: black;
+  
 }
 .center
 {
@@ -29,25 +52,6 @@ body {
     flex-flow: row ;
     justify-content:center;
     align-items: center;
-}
-
-.menu
-{
-    display: inline;
-    
-
-}
-
-#menu li a
-{
-    text-decoration: none;
-    color: darkmagenta;
-    font-size: 20px;
-}
-
-#menu li a:hover
-{
-    color:darkolivegreen;
 }
 
 .p30
@@ -76,3 +80,14 @@ body {
 {
     margin-left: 50px;
 }
+.negrito {
+    font-weight: bold;
+  }
+
+@media screen and (max-width: 600px) {
+    .row, .menu {   
+      flex-direction: column;
+      text-align: center;
+    
+    }
+  }
